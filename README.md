@@ -47,6 +47,23 @@ $$
 
 i.e., the membrane potential responds linearly to input spikes. This linearity breaks if the membrane potential reaches the threshold. After that the amplitude rises to about $100$ $mV$, and from there it drops lower than the resting potential $u_{rest}$ (hyperpolarization). 
 
+## Integrate-And-Fire Models 
+
+Since we are not trying to interprete the shape of the spkies, hence the information that is stored in it, but rather just the presence and absence of them, we reduce our model to detect events. This approach is called 'Integrate-and-Fire' model. 
+For that we need two ingredients: 
+- First an equation that describes the evolution of the membrane potential $u_i(t)$, (Differential equations)
+- and second, a mechanism to generate spikes, (stochastic term, e.g. poission process).
+
+So lets get started with the first one..... Differential equation enters the chat. 
+
+### Integrate of Inputs 
+
+The soma is surrounded by a cell membrane which is a good, but not perfect insulator. When we inject a current pulse $I(t)$ into the neuron, the additional electrical charge $q = int I(t^/{\prime}) dt^{\prime}$ has to go somewhere. That is, it will charge the cell membrane. 
+Henceforth, we can see the cell mambrane as a leaky capacitor, with capacity $C$ and finite resistance $R$. 
+
+
+### Integrate of Inputs 
+
 ## First Lecture 
 The first lecture begins with the basic mathematical model, that is we will measure the spkie times that arrive at the neurons, e.g. 
 
