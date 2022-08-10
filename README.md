@@ -1,5 +1,3 @@
-Safe state 
-
 # BNN
 The Documentation of me studying for BNN
 
@@ -95,7 +93,23 @@ Where we define $u$ as the membrane potential and $\tau_m$ as the membrane time 
 
 And there we go! We introduced our first Differential equation and so far I think it is safe to say, that nothing is particularly difficult to understand. One important fact about DE is their solutions, since without a proper solution they are not for any use. 
 
-So waht is that ominous solution 🧐
+So what is that ominous solution 🧐?
+
+Suppose we receive a a short input at time $t=0$ so the membrane potential starts at a value $u_{rest} + \Detla u$. Intuitively we expect the membrane potential will approach its rest potential after some time $t$. 
+Indeed, the solution of the diffential equation with contion $u(t_0) = u_{rest} + \Delta u$ is 
+
+$$
+\begin{align}
+  u(t) - u_{rest} = \Delta u \exp(-\frac{t-t_0}{\tau_m})  
+\end{align}
+$$
+
+for $t>t_0$. Thus, in the absence of an input, the membrane potential decays exponentially to its resting value. 
+
+## Pulse Input 
+
+![alt text](/Users/alessandroleone/Desktop/Uni/Neuroscience/Pulse_Input.png)
+
 
 
 
