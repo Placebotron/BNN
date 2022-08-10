@@ -58,7 +58,7 @@ So lets get started with the first one..... Differential equation enters the cha
 
 ### Integrate of Inputs 
 
-The soma is surrounded by a cell membrane which is a good, but not perfect insulator. When we inject a current pulse $I(t)$ into the neuron, the additional electrical charge $q = int I(t^/{\prime}) dt^{\prime}$ has to go somewhere. That is, it will charge the cell membrane. 
+The soma is surrounded by a cell membrane which is a good, but not perfect insulator. When we inject a current pulse $I(t)$ into the neuron, the additional electrical charge $q = \int I(t^{\prime}) dt^{\prime}$ has to go somewhere. That is, it will charge the cell membrane. 
 Henceforth, we can see the cell membrane as a leaky capacitor, with capacity $C$ and finite resistance $R$. 
 
 
@@ -77,7 +77,7 @@ $$
 The first component is the resistive current $I_R$ which passes through the linear resistor $R$. We can calculate is using Ohm's fucking law as $I_R = \frac{u_R}{R}$ where $u_R = u - u_{rest}$ is the voltage of the resistor, usually depending on $t$. 
 The second of is the charge of the capacitor $I_C$. From its definition we can calculate it as $C=\frac{q}{u}$ and $I_C = \frac{dq}{dt} = C\frac{du}{dt}$. Thus
 
-$
+$$
 \begin{align}
   I(t) = \frac{u(t) - u_{rest}}{R} + C\frac{du}{dt}.
 \end{align}
@@ -85,7 +85,17 @@ $$
 
 Multiplying this equation by $R$ while introducing the time constant $\tau_m = RC$ of the leaky integrator yields,
 
+$$
+\begin{align}
+  \tau_m \frac{du}{dt} = -[u(t) - u_{rest}] + RI(t).
+\end{align}
+$$
 
+Where we define $u$ as the membrane potential and $\tau_m$ as the membrane time constant of the neuron. 
+
+And there we go! We introduced our first Differential equation and so far I think it is safe to say, that nothing is particularly difficult to understand. One important fact about DE is their solutions, since without a proper solution they are not for any use. 
+
+So waht is that ominous solution 🧐
 
 
 
