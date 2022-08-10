@@ -29,7 +29,7 @@ We want to model the time course $u(t)$ of the neuron $i$. Before the input spik
 
 $$
 \begin{align}
-  u(t) - u_{rest} =: \epsilon_{ij}(t)
+  u_i(t) - u_{rest} =: \epsilon_{ij}(t)
 \end{align}
 $$
 
