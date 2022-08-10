@@ -108,7 +108,7 @@ for $t>t_0$. Thus, in the absence of an input, the membrane potential decays exp
 
 ## Pulse Input 
 
-![alt text](/Users/alessandroleone/Desktop/Uni/Neuroscience/Pulse_Input.png)
+![Alt text](/Users/alessandroleone/Desktop/Uni/Neuroscience/Pulse_Input.png?raw=true)
 
 
 
