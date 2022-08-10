@@ -8,9 +8,9 @@ The Documentation of me studying for BNN
 - Elementary process unit in the central nervous system are neurons. 
 - Neuron has three distinct parts:
   - Dendrites, input device and transmits them to the soma 
-  - Soma, non linear CPU of Neuron, if the the total Input exceeds a threshold than an Output is generated  
-  - and axon, transfers the output to the next neurons.
-- The junction between two neurons is called synapse. 
+  - Soma, non linear CPU of Neuron, if the the total Input exceeds a threshold than an output is generated  
+  - and axon, transfers the output to the next neurons
+- The junction between two neurons is called synapse
 - Presynapic cell - sending neuron 
 - Postsynapic cell - receiving neuron 
 
@@ -25,7 +25,7 @@ We measure the potential difference between the interior of the cell and its sur
 
 ### Postsynaptic Potentials 
 
-We want to model the time course $u(t)$ of the neuron $i$. Before the input spike arrives, we have $u_i(t) = u_{rest}$. Lets say at time $t=0$ the presynaptic neuron $j$ fires its spike. For $t>0$, the response from neuron $i$ is
+We want to model the time course $u(t)$ of the neuron $i$. Before the input spike arrives we have $u_i(t) = u_{rest}$. Lets say at time $t=0$ the presynaptic neuron $j$ fires its spike. For $t>0$, the response from neuron $i$ is
 
 $$
 \begin{align}
