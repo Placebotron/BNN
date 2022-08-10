@@ -37,7 +37,7 @@ If $\epsilon_{ij}(t)$ is positive (negative) we have an excitatory (inhibitory) 
 
 ### Firing Threshold and Action Potential 
 
-Consider two presynaptic neurons $j = 1,2$, which both send spikes to the postsynaptic neuron $i$. Neuron $j=1$ fires spikes at $t_1^{(1)},t_1^{(2)}, \dots$, similarly neuron $j=2$ fire at  $t_1^{(2)},t_1^{(2)}, \dots$. Each spike evokes a postsynaptic potential $\epsilon_{i1}$ or $\epsilon_{i1}$, respectively. Since we have a small number of neurons we can approximate the sum by 
+Consider two presynaptic neurons $j = 1,2$, which both send spikes to the postsynaptic neuron $i$. Neuron $j=1$ fires spikes at $t_1^{(1)},t_1^{(2)}, \dots$, similarly neuron $j=2$ fire at  $t_1^{(2)},t_1^{(2)}, \dots$. Each spike evokes a postsynaptic potential $\epsilon_{i1}$ or $\epsilon_{j1}$, respectively. Since we have a small number of neurons we can approximate the sum by 
 
 $$
 \begin{align}
